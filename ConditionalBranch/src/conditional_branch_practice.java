@@ -35,14 +35,6 @@ public class conditional_branch_practice {
 
 	 int value = random.nextInt(max + min) + min;
 	  System.out.println(value);
-		 
-		 
-		 
 
-//		prob3-4.(難易度：★)
-//		1から100までの乱数を発生させてそれを画面に表示し、値が10以下か、90以上なら、”10以下か90以上の値です”と表示するプログラムを作りなさい。
-//
-//		prob3-5.(難易度：★)
-//		1から100までの乱数を発生させてそれを画面に表示し、値が20以上80未満であれば、”20以上80未満です”と表示するプログラムを作りなさい。
 	}
 }
