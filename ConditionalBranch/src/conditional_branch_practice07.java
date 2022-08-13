@@ -10,7 +10,7 @@ public class conditional_branch_practice07 {
 	   int i = rand.nextInt(10) + 1;
 	   System.out.println(i);
 	   
-	    if (i > 5) {
+	    if (i >= 5) {
 	    	System.out.println("iは5以上です");
 	    }
 	    

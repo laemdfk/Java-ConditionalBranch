@@ -10,7 +10,7 @@ public class conditional_branch_practice09 {
 		int i = rand.nextInt(100) + 1;
 		System.out.println(i);
 
-		if (i < 50) {
+		if (i <= 50) {
 			System.out.println("iは50未満です");
 		}
 

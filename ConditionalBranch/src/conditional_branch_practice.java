@@ -1,5 +1,6 @@
 //prob3-1.(難易度：★)
-//1から10までの乱数を発生させてそれを画面に表示し、5以上ならば、”5以上です”と表示するプログラムを作りなさい。
+//1から10までの乱数を発生させてそれを画面に表示し、
+//5以上ならば、”5以上です”と表示するプログラムを作りなさい。
 
 import java.util.Random;
 
@@ -17,9 +18,9 @@ public class conditional_branch_practice {
 		
 		Random rand = new Random();              //新しくRamdom表示させると定義
 		 int i = rand.nextInt(10) + 1 ;          //変数部分の定義。ここの"+"の後ろの整数を変更することで、表示する整数も変更される! 
-		 System.out.println(i);                  //いつもの。整数の表示。
+		 System.out.println(i);                  //いつもの。整数の出力。
 		 
-		 if (i > 5) {                            //if文「もし変数iが5より大きければ」を定義
+		 if (i >= 5) {                            //if文「もし変数iが5より大きければ」を定義
 			 System.out.println("iは5以上です");   //「iは5以上です」を出力
 		 }
 		 

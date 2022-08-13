@@ -11,12 +11,12 @@ public class conditional_branch_practice06 {
 		  System.out.println("数値 : " + num);
 
 //以下追記
-		  
-		  if (3 < num)  {
+
+		  if (3 <= num)  {
 			  System.out.println("numは3以上です");
 		  }
-		        
-		        
+
+
 	}
 
 }
